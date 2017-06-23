@@ -1,0 +1,85 @@
+#control {
+    border: 4px double black; /* Параметры границы */
+    background: whitesmoke; /* Цвет фона */
+    /* Поля вокруг текста */
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#result{
+    border: 4px double black; /* Параметры границы */
+    background: whitesmoke; /* Цвет фона */
+    /* Поля вокруг текста */
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title1{
+    margin-left: 300px;
+    margin-right: auto;
+}
+table {
+    width: 800px;
+    align-self: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+table#t1{
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#t1 th	{
+    background-color: gray;
+    color: white;
+}
+table#t1 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t1 tr:nth-child(odd) {
+    background-color:#fff;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+    background: white;
+    /*border: black;*/
+}
+div:empty{
+    display: none;
+}
+#errorbody{
+    border: 4px double black; /* Параметры границы */
+    background: red; /* Цвет фона */
+    /* Поля вокруг текста */
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img#logo{
+    height: 73px;
+    align: center;
+    valign: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 270px
+}
